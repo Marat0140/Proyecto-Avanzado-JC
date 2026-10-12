@@ -1,0 +1,76 @@
+/* Estilo: Tech Elegance / Slate Minimalist */
+
+:root {
+  /* Fondos y Superficies (Slate / Gris Oscuro Neutro) */
+  --bg-main: #0B1120;          /* Azul Noche Profundo (Fondo general) */
+  --bg-surface: #1E293B;       /* Azul Pizarra Oscuro (Tarjetas y Paneles) */
+  --bg-surface-hover: #334155; /* Estado hover en elementos interactivos */
+  
+  /* Colores de Marca y Acción (Desaturados) */
+  --primary-color: #38BDF8;    /* Azul Acero / Sky Muted */
+  --primary-hover: #0284C7;    /* Azul Acero Profundo */
+  --secondary-color: #64748B;  /* Gris Pizarra */
+  
+  /* Indicadores de Estado (Tonos pastel / Desaturados) */
+  --accent-success: #34D399;   /* Verde Menta */
+  --accent-warning: #FBBF24;   /* Ámbar Suave */
+  --accent-danger: #F87171;    /* Rojo Suave */
+
+  /* Textos y Bordes */
+  --text-primary: #F1F5F9;     /* Blanco Neutro (Lectura principal) */
+  --text-secondary: #94A3B8;   /* Gris Claro (Descripciones y metadatos) */
+  --border-subtle: #334155;    /* Bordes finos de separación */
+
+  /* Tipografía y Bordes */
+  --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --shadow-soft: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+}
+
+/* Reset Universal y Estilos Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  font-family: var(--font-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+}
+
+/* Enlaces globales */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--primary-hover);
+}
+
+/* Scrollbar personalizado moderno para el tema oscuro */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-main);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-subtle);
+  border-radius: var(--radius-sm);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-color);
+}
