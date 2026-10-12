@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Technologies | Conectando Clientes y Expertos en Reparación</title>
+    
+    <!-- Enlaces a los estilos dedicados y globales -->
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- Iconos para controles y dispositivos si se requieren -->
+</head>
+<body>
+
+    <!-- ==========================================
+         BARRA DE NAVEGACIÓN (NAVBAR)
+         ========================================== -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-brand">
+                <span class="brand-icon">⚡</span>
+                <span class="brand-name">Nova Technologies</span>
+            </a>
+            
+            <nav class="navbar-links">
+                <a href="index.html" class="nav-link active">Inicio</a>
+                <a href="#about" class="nav-link">Sobre Nosotros</a>
+                <a href="#services" class="nav-link">Especialidades</a>
+                <a href="create-request.html" class="nav-link">Cotizar Reparación</a>
+                <a href="terms.html" class="nav-link">Garantías</a>
+            </nav>
+
+            <div class="navbar-actions">
+                <a href="login.html" class="btn btn-outline">Iniciar Sesión</a>
+                <a href="login.html" class="btn btn-primary">Registrarse</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==========================================
+         HERO SECTION CON CARRUSEL / SLIDER ROTATIVO
+         ========================================== -->
+    <section class="hero-section">
+        <div class="hero-container">
+            <!-- Carrusel Rotativo de Imágenes y Mensajes -->
+            <div class="hero-slider" id="heroSlider">
+                <div class="slide active">
+                    <div class="hero-content">
+                        <span class="badge badge-success">Conexión Directa y Segura</span>
+                        <h1 class="hero-title">Repara tus dispositivos con los mejores técnicos especializados</h1>
+                        <p class="hero-description">
+                            Conectamos de forma transparente a clientes con talleres independientes y expertos certificados en telefonía, consolas de videojuegos, controles y computadoras.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="create-request.html" class="btn btn-primary">Solicitar Cotización</a>
+                            <a href="#services" class="btn btn-outline">Ver Especialidades</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="hero-content">
+                        <span class="badge badge-warning">Transparencia en el Precio</span>
+                        <h1 class="hero-title">Presupuestos claros y pagos blindados por código OTP</h1>
+                        <p class="hero-description">
+                            Sin sorpresas ni cobros ocultos. Valida tu presupuesto en línea y libera el pago al taller únicamente cuando el servicio haya finalizado con éxito.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="create-request.html" class="btn btn-primary">Empezar Ahora</a>
+                            <a href="terms.html" class="btn btn-outline">Conocer Políticas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="hero-content">
+                        <span class="badge badge-success">Asistencia Inteligente</span>
+                        <h1 class="hero-title">Diagnóstico previo asistido por Inteligencia Artificial</h1>
+                        <p class="hero-description">
+                            Consulta con nuestro asistente técnico especializado en tiempo real para identificar posibles fallas en tu equipo antes de enviarlo a taller.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="create-request.html" class="btn btn-primary">Cotizar Equipo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Panel Lateral / Vista Previa Interactiva -->
+            <div class="hero-visual">
+                <div class="card hero-card-preview">
+                    <h3>⚡ Garantía Nova Technologies</h3>
+                    <ul class="preview-list" style="list-style: none; display: flex; flex-direction: column; gap: 10px; color: var(--text-secondary); margin-top: 12px;">
+                        <li>✔️ Técnicos verificados por calificaciones reales.</li>
+                        <li>✔️ Seguimiento paso a paso del estado de tu equipo.</li>
+                        <li>✔️ Historial de reparaciones en tu Garaje personal.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         SECCIÓN SOBRE NOSOTROS (EMPRESA)
+         ========================================== -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="section-header">
+                <h2>¿Quiénes Somos en Nova Technologies?</h2>
+                <p>Transformamos la experiencia de servicio técnico combinando confianza, tecnología y soporte profesional.</p>
+            </div>
+            <div class="about-grid">
+                <div class="card about-card">
+                    <h3>🎯 Nuestra Misión</h3>
+                    <p>Brindar una plataforma digital eficiente y segura que solucione la brecha de confianza entre los usuarios que necesitan reparar sus dispositivos y los mejores técnicos locales del mercado.</p>
+                </div>
+                <div class="card about-card">
+                    <h3>🔒 Transparencia Absoluta</h3>
+                    <p>Fomentamos un ecosistema donde las valoraciones y reseñas son exclusivas de clientes que completaron un servicio real, garantizando calificaciones confiables y sin manipulaciones.</p>
+                </div>
+                <div class="card about-card">
+                    <h3>🚀 Innovación Continua</h3>
+                    <p>Integramos herramientas avanzadas como control de estados con códigos OTP, gestión de dispositivos en un garaje virtual y asistencia técnica potenciada por inteligencia artificial.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         CATÁLOGO DE SERVICIOS Y CATEGORÍAS (LADO A LADO)
+         ========================================== -->
+    <section id="services" class="services-section">
+        <div class="services-container">
+            <div class="section-header">
+                <h2>Especialidades y Categorías de Reparación</h2>
+                <p>Selecciona la categoría del dispositivo o accesorio que necesitas reparar con expertos certificados.</p>
+            </div>
+            
+            <!-- Contenedor en Grid horizontal de lado a lado -->
+            <div class="services-grid-horizontal">
+                <!-- Tarjeta 1: Celulares -->
+                <div class="card service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Celulares y Tablets</h3>
+                    <p>Cambio de pantallas OLED/IPS, baterías de alta duración, puertos de carga tipo C y recuperación avanzada ante humedad.</p>
+                    <a href="create-request.html" class="btn btn-outline" style="margin-top: 20px; width: 100%;">Cotizar Celular</a>
+                </div>
+
+                <!-- Tarjeta 2: Consolas y Controles -->
+                <div class="card service-card">
+                    <div class="service-icon">🎮🕹️</div>
+                    <h3>Consolas y Controles</h3>
+                    <p>Mantenimiento preventivo, cambio de pasta térmica, reparación de puertos HDMI y solución de *stick drift* en mandos de PlayStation, Xbox y Nintendo.</p>
+                    <a href="create-request.html" class="btn btn-outline" style="margin-top: 20px; width: 100%;">Cotizar Consola / Mando</a>
+                </div>
+
+                <!-- Tarjeta 3: Computadoras -->
+                <div class="card service-card">
+                    <div class="service-icon">💻🖥️</div>
+                    <h3>Computadoras y Laptops</h3>
+                    <p>Optimización de sistemas, instalación de SSD/RAM, cambio de pantallas, reparación de bisagras, fuentes de poder y tarjetas gráficas.</p>
+                    <a href="create-request.html" class="btn btn-outline" style="margin-top: 20px; width: 100%;">Cotizar PC / Laptop</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         WIDGET FLOTANTE DE IA (ESQUINA INFERIOR DERECHA)
+         ========================================== -->
+    <div class="ai-widget-container">
+        <!-- Botón flotante animado -->
+        <button class="ai-fab-btn" id="aiToggleBtn" aria-label="Abrir Asistente IA">
+            <span class="ai-fab-icon">🤖</span>
+            <span class="ai-pulse-ring"></span>
+        </button>
+
+        <!-- Ventana de Chat Flotante (Oculta por defecto) -->
+        <div class="ai-chat-popup" id="aiChatPopup">
+            <div class="ai-chat-header">
+                <div class="ai-chat-title">
+                    <span>⚡ Asistente Nova IA</span>
+                </div>
+                <button class="ai-close-btn" id="aiCloseBtn">&times;</button>
+            </div>
+            <div class="ai-chat-body" id="aiChatBody">
+                <div class="ai-message bot">
+                    ¡Hola! Soy tu asistente técnico de Nova Technologies. ¿Qué dispositivo necesitas reparar hoy?
+                </div>
+            </div>
+            <div class="ai-chat-footer">
+                <input type="text" id="aiUserInput" placeholder="Escribe tu consulta técnica..." class="form-input">
+                <button class="btn btn-primary" id="aiSendBtn">Enviar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================
+         FOOTER INSTITUCIONAL
+         ========================================== -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2026 Nova Technologies. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="terms.html">Términos y Condiciones</a>
+                <a href="404.html">Centro de Soporte</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts de la interfaz, carrusel y widget de IA -->
+    <script src="./js/main.js"></script>
+    <script src="./js/carousel.js"></script>
+    <script src="./js/ai-chat.js"></script>
+</body>
+</html>
